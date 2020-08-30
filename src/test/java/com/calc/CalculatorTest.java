@@ -9,6 +9,6 @@ import static org.junit.Assert.*;
 public class CalculatorTest {
     @Test public void testAdd() {
         Calculator calculator = new Calculator(3, 2);
-        assertEquals(5, calculator.add(), 0);
+        assertEquals(6, calculator.add(), 0);
     }
 }
